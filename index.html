@@ -1,0 +1,41 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css"> 
+</head>
+
+<body>
+    
+     <div class="container">
+        <button type="button" class="btn"><span class="btn__inner">open modal</span></button>
+    </div>
+
+    <div class="modal">
+        <div class="modal__wrap">
+            <h1 class="modal__title">Enjoyed the read ?</h1>
+            <p class="modal__text">Join our monthly newsletter for helpful tips on design and more.</p>
+            <form action="#" class="modal__form">
+                <input type="email" class="modal__email" placeholder="Your email address" autocomplete="off" required>
+                <label class="modal__agree">
+                    <input type="checkbox" class="modal__checkbox" required>
+                    <div class="modal__custom-checkbox"></div>
+                    <p class="modal__agree-text">I agree to receive this newsletter and subscribe at any time.</p>
+                </label>
+                <button class="btn modal__submit-btn"><span class="btn__inner modal__submit-inner">subscribe</span></button>
+            </form>
+            <button type="button" class="modal__close-btn"><i class="bi bi-x"></i></button>
+        </div>
+    </div>
+
+
+    <script src = "script.js"></script>
+</body>
+
+</html>
